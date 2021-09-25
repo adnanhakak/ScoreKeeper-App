@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>palyer 12 game</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+<style type="text/css">
+	body{
+		background :#2f2f2f;
+		text-align:center;
+		padding-top:150px; 
+		text-decoration: underline;
+		color:black;
+		font-family: cursive;
+	 }
+	p{
+		padding-right: 335px;
+		color:#f8f9fa;
+	 }
+	.winner{
+		color:green;
+		text-decoration:underline;
+	 }
+	 .loser{
+	 	text-decoration: line-through;
+	 }
+	 #name1{
+	 	text-transform: uppercase;
+	 
+	 }
+	  #name2{
+	  	text-transform: uppercase;
+	 }
+
+	 .co{
+	 	color: green ;
+	 	position: fixed;
+	 	bottom: 0 ;
+	 	right: 0 ;
+	 }
+	 .co p{
+	 	color:green;
+	 	padding: 0;
+	 	margin-right: 10px;
+	 }
+</style>
+
+</head>
+<body>
+<h4> SCORE KEEPER:</h4>
+<h2><em><span id="name1">player1name</span>  V/S <span id="name2">player2name</span></em></h2>
+<h1> <span id="p1Display">0</span> to <span id="p2Display">0</span> </h1>
+<p>Playing to: <span> 5 </span></p>
+<input type="number" placeholder="enter a number">
+<button  id="p1" class="btn btn-success btn-sm" >Player1</button>
+<button  id="p2" class="btn btn-success btn-sm"  >Player2</button>
+<button id="reset" class="btn btn-danger btn-sm" >Reset</button>
+<div class="co"><p>&copy;This app is product of represent.co<br>
+		Made by Adnan</p></div>
+<script type="text/javascript" src="player12game.js"></script>
+</body>
+</html>
